@@ -4,6 +4,10 @@ import java.util.*;
 
 public class Solutions {
     public static void main(String[] args) {
+
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+
         //배열 관련
             // 정렬
         int[] arr = new int[3];
