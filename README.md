@@ -30,6 +30,7 @@ String tmp=new StringBuilder(x).reverse().toString();
 
 #### 숫자인지 확인
 if(Character.isDigit(x));
+if(x>=48 && x<=57)
 
 #### 문자열 바꾸기
 ```java
@@ -44,7 +45,16 @@ a= a.replaceFirst("대한", "민국"); //replaceFirst([기존문자],[바꿀문�
 System.out.println(a); //무궁화 삼천리 화려강산 민국사람 대한으로 길이 보전하세
 ```
 
+#### 문자열 자르기
+- index 0~7
+String tmp=s.substring(0, 7);
+- index 7~
+s=s.substring(7);
 
+#### index 
+String s = "abcabc"
+str.indexOf(a) // a가 나오는 첫번째 index 반환 
+// 1 출력 
 
 
 ## 📌 반복문
