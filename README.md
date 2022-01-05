@@ -1,6 +1,7 @@
-# Algorithm
+![image](https://user-images.githubusercontent.com/46310555/148198346-7dc8bc18-7aa6-4eef-b4d2-c1e9cdd6723b.png)
 
-## 정렬
+
+## 📌정렬
 #### 오름차순 정렬
 int[] arr = new int[3];
 Arrays.sort(arr);
@@ -11,7 +12,7 @@ Arrays.sort(arr, Collections.reverseOrder());
 #### 정렬기준 잡고 정렬
 Collections.sort(arr);
 
-## 문자열
+## 📌 문자열
 #### 대소문자
 (1) 대소문자 변환
 - String 타입 
@@ -46,20 +47,20 @@ System.out.println(a); //무궁화 삼천리 화려강산 민국사람 대한으
 
 
 
-## 반복문
+## 📌 반복문
 for(int i=0; i<str.length(); i++){
 			if(str.charAt(i)==t) answer++;
       }
       
 for(char x : str.toCharArray())
 
-## 배열
+## 📌 배열
 #### 문자열 -> 공백 기준으로 배열에 저장
 str = "asdf dfg fds";
 String[] s = str.split(" ");
 
 
-## Hash Map
+## 📌 Hash Map
 HashMap<Character, Integer> map=new HashMap<>();
 #### 값 넣기
 - map.put('x',1);
@@ -76,10 +77,10 @@ map.size();
 #### 특정 키 삭제
 map.remove('A'); //A라는 키 제거 , A의 값 리턴
 
-## Stack 
+## 📌 Stack 
 Stack<Character> stack=new Stack<>();
 
-## 큐 
+## 📌 큐 
 Queue<Point> Q=new LinkedList<>();
 
 
