@@ -1,5 +1,30 @@
 ![image](https://user-images.githubusercontent.com/46310555/148198346-7dc8bc18-7aa6-4eef-b4d2-c1e9cdd6723b.png)
+## 📌입출력
+#### StringTokenizer
+```java
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int[] arrays = new int[n];
+        for (int i = 0; i < n; i++) {
+            arrays[i] = Integer.parseInt(st.nextToken());
+        }
+```
 
+#### BufferedReader, BufferedWriter
+```java
+ BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+ BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+```
+
+#### StringBuilder
+```java
+ StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < n; i++) {
+            sb.append(arrays[i]).append(' ');
+        }
+	
+	System.out.println(sb);
+        // bw.write(sb.toString() + "\n");
+```
 
 ## 📌정렬
 #### 오름차순 정렬
