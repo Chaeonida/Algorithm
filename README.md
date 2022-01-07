@@ -76,6 +76,11 @@ String tmp=s.substring(0, 7);
 - index 7~
 s=s.substring(7);
 
+#### 문자열 -> 공백 기준으로 배열에 저장
+str = "asdf dfg fds";
+String[] s = str.split(" ");
+
+
 #### index 
 String s = "abcabc"
 str.indexOf(a) // a가 나오는 첫번째 index 반환 
@@ -90,9 +95,14 @@ for(int i=0; i<str.length(); i++){
 for(char x : str.toCharArray())
 
 ## 📌 배열
-#### 문자열 -> 공백 기준으로 배열에 저장
-str = "asdf dfg fds";
-String[] s = str.split(" ");
+#### 동적 배열
+- 배열 초기화
+ArrayList<Integer> answer = new ArrayList<>();
+- 배열에 원소 추가 
+answer.add(a[lt]);
+- i 번째 값 가져오기
+answer.get(i)	
+
 
 
 ## 📌 Hash Map
