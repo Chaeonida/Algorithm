@@ -121,7 +121,22 @@ map.size();
 
 #### 특정 키 삭제
 map.remove('A'); //A라는 키 제거 , A의 값 리턴
+	
+#### map 출력
+- map.keySet()  : key의 값 가지고 있는 배열 
+```java
+for (String key : map.keySet()) {
+	String value = map.get(key);
+    System.out.println("[key]:" + key + ", [value]:" + value);
+}  	
+```
+- map.entrySet() : key와 value 모두 가지고 있는 배열
+```java
 
+for (Map.Entry<String, String> entry : map.entrySet()) {
+	System.out.println("[key]:" + entry.getKey() + ", [value]:" + entry.getValue());
+}	
+```
 ## 📌 Stack 
 Stack<Character> stack=new Stack<>();
 
