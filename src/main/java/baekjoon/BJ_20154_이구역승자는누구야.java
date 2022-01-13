@@ -13,7 +13,6 @@ public class BJ_20154_이구역승자는누구야{
         Queue<Integer> Q=new LinkedList<>();
 
         String str = br.readLine();
-
         for(int i = 0; i < str.length(); i++) {
             Q.add(alpha[str.charAt(i) - 'A']);
         }
