@@ -153,3 +153,13 @@ queue.clear();      // queue 초기화
 #### Queue 에서 가장 먼저 들어간 값 참조(실제로 큐에서 나오는건 아님)
 queue.peek();       // queue의 첫번째 값 참조
 
+
+## 📌 아스키 코드
+#### 알파벳 배열에 대응시키기 
+```java
+	static int[] alpha = {3, 2, 1,	2, 3, 3, 3, 3, 1, 1, 3, 1, 3, 3, 1, 2, 2, 2, 1, 2, 1, 1, 2, 2, 2, 1};
+	String str = br.readLine();
+        for(int i = 0; i < str.length(); i++) {
+            Q.add(alpha[str.charAt(i) - 'A']);
+        }
+```
