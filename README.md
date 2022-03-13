@@ -48,7 +48,12 @@ char t = 'a';
 t = Character.toUpperCase(t);
 (2) 대소문자 확인
 char x = 'a';
+//소문자 확인
 Character.isLowerCase(x);
+// 대문자 
+Character.isUpperCase(x);
+//숫자 확인
+Character.isDigit(c)
 
 #### 문자 역순 출력하기 (abc -> cba)
 String tmp=new StringBuilder(x).reverse().toString();
