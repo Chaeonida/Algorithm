@@ -48,7 +48,12 @@ char t = 'a';
 t = Character.toUpperCase(t);
 (2) 대소문자 확인
 char x = 'a';
+//소문자 확인
 Character.isLowerCase(x);
+// 대문자 
+Character.isUpperCase(x);
+//숫자 확인
+Character.isDigit(c)
 
 #### 문자 역순 출력하기 (abc -> cba)
 String tmp=new StringBuilder(x).reverse().toString();
@@ -141,6 +146,10 @@ for (Map.Entry<String, String> entry : map.entrySet()) {
 Stack<Character> stack=new Stack<>();
 
 ## 📌 큐 
+### 🚧 우선순위 큐
+PriorityQueue<Integer> priorityQueue1 = new PriorityQueue<>(); //낮은 숫자 부터 나옴
+PriorityQueue<Integer> priorityQueue2 = new PriorityQueue<>(Collections.reverseOrder()); // 높은 숫자 부터 나옴
+
 #### 큐 선언
 Queue<Integer> Q=new LinkedList<>();
 #### Queue 값 추가
@@ -152,6 +161,7 @@ queue.remove();     // queue에 첫번째 값 제거
 queue.clear();      // queue 초기화
 #### Queue 에서 가장 먼저 들어간 값 참조(실제로 큐에서 나오는건 아님)
 queue.peek();       // queue의 첫번째 값 참조
+	
 
 
 ## 📌 아스키 코드
